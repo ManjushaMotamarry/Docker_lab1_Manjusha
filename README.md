@@ -1,14 +1,19 @@
 # Lab: Digits Classification with Docker
 
 ## Project Structure
+```
+
 Lab/
- ├── src/
- │    └── main.py          # Trains the SVM model and saves digits_model.pkl
- ├── requirements.txt      # Python dependencies
- ├── screenshots/
- │    ├── docker_build.png # Screenshot of docker build output
- │    └── docker_run.png   # Screenshot of docker run output
- └── Dockerfile            # Image build instructions
+├── src/
+│    └── main.py          # Trains the SVM model and saves digits_model.pkl
+├── requirements.txt      # Python dependencies
+├── screenshots/
+│    ├── docker_build.png # Screenshot of docker build output
+│    └── docker_run.png   # Screenshot of docker run output
+└── Dockerfile            # Image build instructions
+
+```
+
 
 ## How to Build the Docker Image
 docker build -t digits-lab:v1 .
