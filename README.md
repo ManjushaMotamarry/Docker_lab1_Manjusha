@@ -6,7 +6,7 @@
 Lab/
 ├── src/
 │    └── main.py          # Trains the SVM model and saves digits_model.pkl
-├── requirements.txt      # Python dependencies
+│    └── requirements.txt      # Python dependencies
 ├── screenshots/
 │    ├── docker_build.png # Screenshot of docker build output
 │    └── docker_run.png   # Screenshot of docker run output
